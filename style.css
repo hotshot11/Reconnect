@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    animation: animate 50s ease-in-out infinite;
+    overflow: auto;
+    
+
+}
+
+
+@keyframes animate{
+    0%{
+        background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(pictures/Moonbg.gif); 
+    }
+    25%{
+        background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(pictures/Rainbg.gif); 
+    }
+    50%{
+        background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(pictures/Sunrisebg.gif); 
+    }
+    75%{
+        background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(pictures/Moonbg.gif); 
+    }
+    100%{
+        background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(pictures/Handsbg.gif); 
+    }
+
+
+}
+
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -16%);
+    text-align: center;
+    text-justify: auto;
+}
+.aud{
+    position: absolute;
+    text-align: center;
+    bottom: 78%;
+    left: 42%;
+
+}
+.batman{
+    
+    text-align: center;
+    position: absolute;
+    bottom: -175%;
+    left: 45%;
+
+  }
+  .play{
+    position: absolute;
+    text-align: center;
+    bottom: 77%;
+    left: 37%;
+    opacity: 65%;
+
+
+}
+    
+
+
+
+
+
+
+@media screen {
+    
+.text-box{
+
+font-size: 20px;
+transform: translate(-50%, -23%);
+
+}
+
+.header{
+    background-size: cover;
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    animation: animate 16s ease-in-out infinite;
+    overflow: auto;
+}
+.aud{
+    position: absolute;
+    text-align: center;
+    bottom: 83%;
+    left: 30%;
+
+}
+.batman{
+    bottom: -100%;
+    left: 36%;
+
+  }
+  .play{
+    position: absolute;
+    text-align: center;
+    bottom: 82%;
+    left: 20%;
+    opacity: 65%;
+
+
+  }
+
+
+
+
+
+
+
+
+}
