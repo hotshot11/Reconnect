@@ -84,10 +84,10 @@
 
 
 
-@media(max-width: 700px) {
+@media(max-width: 720px) {
     
 .text-box{
-font-size: 10px;
+font-size: 20px;
 }
 
 .aud{
@@ -95,7 +95,7 @@ font-size: 10px;
 
 }
 .batman{
-top: 205%;
+top: 200%;
 
   }
   .play{
